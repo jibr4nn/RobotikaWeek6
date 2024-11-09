@@ -1,0 +1,5 @@
+prm_params:
+  num_nodes: 20           # Jumlah node acak yang akan dihasilkan
+  x_limit: 10             # Batas area sumbu X
+  y_limit: 10             # Batas area sumbu Y
+  max_distance: 3         # Jarak maksimal antar node untuk menghubungkannya

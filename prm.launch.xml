@@ -1,0 +1,7 @@
+<launch>
+    <!-- Membaca parameter dari file YAML -->
+    <param name="prm_params" file="$(find prm_package_clean)/config/params.yaml" />
+
+    <!-- Menjalankan node prm.py -->
+    <node pkg="prm_package_clean" type="prm.py" name="prm_node" output="screen"/>
+</launch>
